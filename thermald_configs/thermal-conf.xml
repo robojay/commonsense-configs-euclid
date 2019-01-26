@@ -13,7 +13,7 @@ use "man thermal-conf.xml" for details
 	<ThermalSensors>
 		<ThermalSensor>
 			<Type>CPU0 temp</Type>
- 			<Path>/sys/devices/platform/coretemp.0/hwmon/hwmon3/temp2_input</Path>
+ 			<Path>/sys/devices/platform/coretemp.0/hwmon/hwmon2/temp2_input</Path>
 			<AsyncCapable>0</AsyncCapable>
 		</ThermalSensor>
 	</ThermalSensors>

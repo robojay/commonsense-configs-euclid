@@ -16,10 +16,10 @@ while [ true ]; do
 	cat /sys/devices/system/cpu/cpu3/cpufreq/scaling_cur_freq
 	echo ""
 	echo "CPU temp"
-	cat  /sys/devices/platform/coretemp.0/hwmon/hwmon3/temp2_input
-	cat /sys/devices/platform/coretemp.0/hwmon/hwmon3/temp3_input
-	cat /sys/devices/platform/coretemp.0/hwmon/hwmon3/temp4_input
-	cat /sys/devices/platform/coretemp.0/hwmon/hwmon3/temp5_input
+	cat  /sys/devices/platform/coretemp.0/hwmon/hwmon2/temp2_input
+	cat /sys/devices/platform/coretemp.0/hwmon/hwmon2/temp3_input
+	cat /sys/devices/platform/coretemp.0/hwmon/hwmon2/temp4_input
+	cat /sys/devices/platform/coretemp.0/hwmon/hwmon2/temp5_input
 	echo ""
 	echo "Fan speed"
 	cat /sys/class/pwm/pwmchip0/pwm0/duty_cycle
